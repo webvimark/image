@@ -54,7 +54,7 @@ abstract class Kohana_Image {
                 }
 
                 // Set the class name
-                $class = 'app\Kohana\Kohana\Image\\'.$driver;
+                $class = 'webvimark\image\Kohana\Image\\'.$driver;
 
                 return new $class($file);
         }
