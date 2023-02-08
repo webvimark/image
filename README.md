@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist webvimark/image "*"
+php composer.phar require --prefer-dist uzzielpelawak/image "*"
 ```
 
 or add
 
 ```
-"webvimark/image": "*"
+"uzzielpelawak/image": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -31,7 +31,7 @@ In your config/web.php
 		...
 
 		'migrations'=>[
-			'class'=>'webvimark\modules\migrations\MigrationModule'
+			'class'=>'uzzielpelawak\modules\migrations\MigrationModule'
 		],
 
 		...
@@ -45,7 +45,7 @@ In you config/console.php
 
 	'controllerMap'=>[
 		'migrate'=>[
-			'class'=>'webvimark\modules\migrations\components\MigrateController',
+			'class'=>'uzzielpelawak\modules\migrations\components\MigrateController',
 		],
 	],
 
@@ -58,5 +58,5 @@ Usage
 -----
 
 ```php
-\webvimark\image\Image::factory($pathFromFile)->resize(500, 300)->save($pathToFile);
+\uzzielpelawak\image\Image::factory($pathFromFile)->resize(500, 300)->save($pathToFile);
 ```

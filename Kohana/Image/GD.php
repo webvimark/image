@@ -1,8 +1,8 @@
 <?php
-namespace webvimark\image\Kohana\Image;
+namespace uzzielpelawak\image\Kohana\Image;
 
-use webvimark\image\Image;
-use webvimark\image\Kohana\Kohana_Image;
+use uzzielpelawak\image\Image;
+use uzzielpelawak\image\Kohana\Kohana_Image;
 use yii\base\ErrorException;
 /**
  * Support for image manipulation using [GD](http://php.net/GD).

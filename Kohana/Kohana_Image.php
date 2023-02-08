@@ -1,7 +1,7 @@
 <?php
-namespace webvimark\image\Kohana;
+namespace uzzielpelawak\image\Kohana;
 
-use webvimark\image\Image;
+use uzzielpelawak\image\Image;
 use yii\base\ErrorException;
 /**
  * Image manipulation support. Allows images to be resized, cropped, etc.
@@ -54,7 +54,7 @@ abstract class Kohana_Image {
                 }
 
                 // Set the class name
-                $class = 'webvimark\image\Kohana\Image\\'.$driver;
+                $class = 'uzzielpelawak\image\Kohana\Image\\'.$driver;
 
                 return new $class($file);
         }

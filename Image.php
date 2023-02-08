@@ -1,7 +1,7 @@
 <?php
-namespace webvimark\image;
+namespace uzzielpelawak\image;
 
-use webvimark\image\Kohana\Kohana_Image;
+use uzzielpelawak\image\Kohana\Kohana_Image;
 
 abstract class Image extends Kohana_Image {}
 ?>
